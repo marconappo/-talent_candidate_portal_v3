@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="type_of_education" label="Type of Education" language="en" table="x_431105_cand_ass_candidate_education_experience">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>type_of_education</element>
+            <help/>
+            <hint/>
+            <label>Type of Education</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_candidate_education_experience</name>
+            <plural>Type of Educations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-14 13:03:15</sys_created_on>
+            <sys_id>6a488bab475721103fa44aff336d43c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Type of Education</sys_name>
+            <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
+            <sys_update_name>sys_documentation_x_431105_cand_ass_candidate_education_experience_type_of_education_en</sys_update_name>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-14 13:03:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
