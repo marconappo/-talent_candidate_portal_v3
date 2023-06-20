@@ -77,6 +77,25 @@
             <element>minimum_value</element>
             <hint/>
             <inactive>false</inactive>
+            <label>25</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_candidate_pass_mark</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-20 11:07:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:07:51</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>minimum_value</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>30</label>
             <language>en</language>
             <name>x_431105_cand_ass_candidate_pass_mark</name>
@@ -90,6 +109,25 @@
             <sys_updated_by>nappoma</sys_updated_by>
             <sys_updated_on>2023-06-08 17:49:13</sys_updated_on>
             <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>minimum_value</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>35</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_candidate_pass_mark</name>
+            <sequence>35</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-20 11:07:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-20 11:07:55</sys_updated_on>
+            <value>35</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

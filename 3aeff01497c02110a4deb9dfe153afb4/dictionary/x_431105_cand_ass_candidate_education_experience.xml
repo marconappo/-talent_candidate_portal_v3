@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="use_document_viewer" db_object_id="cf032838475f61103fa44aff336d4363" label="Candidate Education Experience" max_length="40" name="x_431105_cand_ass_candidate_education_experience" type="collection">
+        <element choice="1" choice_field="listen" choice_table="x_431105_cand_ass_candidate_education_experience" default="proficient user (c1)" label="Ability to Speak" max_length="40" name="ability_to_speak" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Basic User (A2)" sequence="0" value="basic user (a2)"/>
+                <element inactive="true" inactive_on_update="true" label="TESt" sequence="0" value="test"/>
+                <element inactive_on_update="false" label="Independant User (B1)" sequence="1" value="independant user (b1)"/>
+                <element inactive_on_update="false" label="Independant User (B2)" sequence="2" value="independant user (b2)"/>
+                <element inactive_on_update="false" label="Proficient User (C1)" sequence="3" value="proficient user (c1)"/>
+                <element inactive_on_update="false" label="Proficient User (C2)" sequence="4" value="proficient user (c2)"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="listen" choice_table="x_431105_cand_ass_candidate_education_experience" default="proficient user (c1)" label="Ability to Write" max_length="40" name="ability_to_write" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Basic User (A2)" sequence="0" value="basic user (a2)"/>
+                <element inactive="true" inactive_on_update="true" label="TESt" sequence="0" value="test"/>
+                <element inactive_on_update="false" label="Independant User (B1)" sequence="1" value="independant user (b1)"/>
+                <element inactive_on_update="false" label="Independant User (B2)" sequence="2" value="independant user (b2)"/>
+                <element inactive_on_update="false" label="Proficient User (C1)" sequence="3" value="proficient user (c1)"/>
+                <element inactive_on_update="false" label="Proficient User (C2)" sequence="4" value="proficient user (c2)"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" choice_field="application_duration" choice_table="x_431105_cand_ass_candidate_education_experience" label="Accepted Duration" max_length="40" name="accepted_duration" type="integer">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="12" sequence="6" value="12"/>
+                <element inactive_on_update="false" label="18" sequence="7" value="18"/>
+                <element inactive_on_update="false" label="24" sequence="8" value="24"/>
+                <element inactive_on_update="false" label="30" sequence="9" value="30"/>
+                <element inactive_on_update="false" label="36" sequence="10" value="36"/>
+                <element inactive_on_update="false" label="48" sequence="11" value="48"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Application Duration" max_length="40" name="application_duration" type="integer">
             <choice>
@@ -34,8 +67,8 @@
         <element label="End date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Field" max_length="100" name="field" type="string"/>
         <element label="Final check" max_length="40" name="final_check" type="string"/>
-        <element attributes="encode_utf8=false" label="Language" max_length="32" name="language" reference="core_country" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Ability to Listen" max_length="40" name="listen" type="string">
+        <element attributes="encode_utf8=false" label="Language" max_length="32" name="language" reference="x_431105_cand_ass_language" reference_qual="language!=ALL^EQ" reference_qual_condition="language!=ALL^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="proficient user (c1)" label="Ability to Listen" max_length="40" name="listen" type="string">
             <choice>
                 <element inactive_on_update="false" label="Basic User (A2)" sequence="0" value="basic user (a2)"/>
                 <element inactive_on_update="false" label="Independant User (B1)" sequence="1" value="independant user (b1)"/>
@@ -47,7 +80,7 @@
         <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Observation" max_length="1000" name="observation" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="proficient user (c1)" label="Ability to Read" max_length="40" name="read" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="listen" choice_table="x_431105_cand_ass_candidate_education_experience" default="proficient user (c1)" label="Ability to Read" max_length="40" name="read" type="string">
             <choice>
                 <element inactive_on_update="false" label="Basic User (A2)" sequence="0" value="basic user (a2)"/>
                 <element inactive_on_update="false" label="Independant User (B1)" sequence="1" value="independant user (b1)"/>
@@ -59,16 +92,16 @@
         <element choice="3" default="100" label="Relevant (%)" max_length="40" name="relevant" type="string">
             <choice>
                 <element inactive_on_update="false" label="0" sequence="0" value="0"/>
-                <element inactive_on_update="false" label="10" sequence="10" value="10"/>
-                <element inactive_on_update="false" label="20" sequence="20" value="20"/>
-                <element inactive_on_update="false" label="30" sequence="30" value="30"/>
-                <element inactive_on_update="false" label="40" sequence="40" value="40"/>
-                <element inactive_on_update="false" label="50" sequence="50" value="50"/>
-                <element inactive_on_update="false" label="60" sequence="60" value="60"/>
-                <element inactive_on_update="false" label="70" sequence="70" value="70"/>
-                <element inactive_on_update="false" label="80" sequence="80" value="80"/>
-                <element inactive_on_update="false" label="90" sequence="90" value="90"/>
-                <element inactive_on_update="false" label="100" sequence="100" value="100"/>
+                <element inactive_on_update="false" label="10" sequence="1" value="10"/>
+                <element inactive_on_update="false" label="20" sequence="2" value="20"/>
+                <element inactive_on_update="false" label="30" sequence="3" value="30"/>
+                <element inactive_on_update="false" label="40" sequence="4" value="40"/>
+                <element inactive_on_update="false" label="50" sequence="5" value="50"/>
+                <element inactive_on_update="false" label="60" sequence="6" value="60"/>
+                <element inactive_on_update="false" label="70" sequence="7" value="70"/>
+                <element inactive_on_update="false" label="80" sequence="8" value="80"/>
+                <element inactive_on_update="false" label="90" sequence="9" value="90"/>
+                <element inactive_on_update="false" label="100" sequence="10" value="100"/>
             </choice>
         </element>
         <element label="Reply" max_length="1000" name="reply" type="string"/>

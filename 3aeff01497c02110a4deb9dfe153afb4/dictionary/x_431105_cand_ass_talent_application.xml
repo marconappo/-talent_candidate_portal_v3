@@ -22,23 +22,12 @@
         <element label="Marker 2" max_length="32" name="marker_2" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="More info required" max_length="40" name="more_info_required" type="boolean"/>
         <element label="More info required" max_length="40" name="more_info_required_string" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Overall mark" max_length="40" name="overall_mark" type="integer">
-            <choice>
-                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
-                <element inactive_on_update="false" label="10" sequence="10" value="10"/>
-                <element inactive_on_update="false" label="20" sequence="20" value="20"/>
-                <element inactive_on_update="false" label="30" sequence="30" value="30"/>
-                <element inactive_on_update="false" label="40" sequence="40" value="40"/>
-                <element inactive_on_update="false" label="50" sequence="50" value="50"/>
-                <element inactive_on_update="false" label="100" sequence="100" value="100"/>
-                <element inactive_on_update="false" label="200" sequence="200" value="200"/>
-            </choice>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Overall mark" max_length="40" name="overall_mark" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Professional Experience OK?" max_length="40" name="professional_experience" type="boolean"/>
         <element label="Professional Experience OK?" max_length="40" name="professional_experience_string" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Publication" max_length="32" name="publication" reference="x_431105_cand_ass_assessment" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Special needs requirements" max_length="40" name="special_needs_requirements" type="boolean"/>
-        <element choice="1" dependent="stepstone" dependent_on_field="stepstone" label="Status" max_length="40" name="status" type="choice" use_dependent_field="true">
+        <element choice="1" default="applied" dependent="stepstone" dependent_on_field="stepstone" label="Status" max_length="40" name="status" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="applied" inactive_on_update="false" label="Applied" sequence="1" value="applied"/>
                 <element dependent_value="testing" inactive_on_update="false" label="Invited" sequence="11" value="invited"/>
@@ -68,7 +57,7 @@
                 <element dependent_value="request_for_review" inactive_on_update="false" label="Rejected" sequence="63" value="rejected"/>
             </choice>
         </element>
-        <element choice="3" label="Candidate phase" max_length="40" name="stepstone" type="choice">
+        <element choice="3" default="applied" label="Candidate phase" max_length="40" name="stepstone" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Applied" sequence="0" value="applied"/>
                 <element inactive_on_update="false" label="Testing" sequence="1" value="testing"/>

@@ -7,7 +7,9 @@
                 <element inactive_on_update="false" label="0" sequence="0" value="0"/>
                 <element inactive_on_update="false" label="10" sequence="10" value="10"/>
                 <element inactive_on_update="false" label="20" sequence="20" value="20"/>
+                <element inactive_on_update="false" label="25" sequence="25" value="25"/>
                 <element inactive_on_update="false" label="30" sequence="30" value="30"/>
+                <element inactive_on_update="false" label="35" sequence="35" value="35"/>
                 <element inactive_on_update="false" label="40" sequence="40" value="40"/>
                 <element inactive_on_update="false" label="50" sequence="50" value="50"/>
                 <element inactive_on_update="false" label="60" sequence="60" value="60"/>

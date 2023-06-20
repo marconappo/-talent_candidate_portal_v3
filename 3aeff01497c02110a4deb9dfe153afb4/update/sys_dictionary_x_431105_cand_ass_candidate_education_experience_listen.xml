@@ -11,7 +11,7 @@
         <column_label>Ability to Listen</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>proficient user (c1)</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -52,8 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_dictionary_x_431105_cand_ass_candidate_education_experience_listen</sys_update_name>
-        <sys_updated_by>olivier.gregoire</sys_updated_by>
-        <sys_updated_on>2023-06-14 12:55:52</sys_updated_on>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-20 09:12:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

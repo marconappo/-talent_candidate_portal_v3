@@ -3,7 +3,7 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>false</action_insert>
+        <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
@@ -40,15 +40,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>944b4b6f475721103fa44aff336d4320</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>professional - Set Name</sys_name>
         <sys_overrides/>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_script_944b4b6f475721103fa44aff336d4320</sys_update_name>
-        <sys_updated_by>olivier.gregoire</sys_updated_by>
-        <sys_updated_on>2023-06-14 13:16:12</sys_updated_on>
+        <sys_updated_by>nappoma</sys_updated_by>
+        <sys_updated_on>2023-06-20 09:14:51</sys_updated_on>
         <template>nameSAMEAStype_of_experience^EQ</template>
         <when>before</when>
     </sys_script>

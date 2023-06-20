@@ -45,11 +45,11 @@ function importMarksFromPrometric() {
         var competency = grCandidateCompetencyScore.assessment_selection_criteria.selection_criteria;
         var randomNumber = 3;
         if (VERBAL_REASONING.indexOf(competency) != -1) {
-            randomNumber = getRandomInteger(0, 20);
+            randomNumber = getRandomInteger(8, 20);
             grCandidateCompetencyScore.score = randomNumber;
             grCandidateCompetencyScore.update();
         } else if (NUMERICAL_REASONING.indexOf(competency) != -1 || ABSTRACT_REASONING.indexOf(competency) != -1) {
-            randomNumber = getRandomInteger(0, 10);
+            randomNumber = getRandomInteger(4, 10);
             grCandidateCompetencyScore.score = randomNumber;
             grCandidateCompetencyScore.update();
         }
@@ -67,7 +67,7 @@ function updateTotalScore() {
     grCandidatePassMark.query();
     var status = 'succeded';
     while (grCandidatePassMark.next()) {
-        var totalScore = -1;
+        var totalScore = 0;
         var grCandidateCompetencyScore = new GlideRecord('x_431105_cand_ass_candidate_selection_criteria_score');
         grCandidateCompetencyScore.addQuery('application', current.sys_id);
         grCandidateCompetencyScore.query();
@@ -100,7 +100,7 @@ function updateTotalScore() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9819df9479b21103fa44aff336d4399</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Import marks from Prometric</sys_name>
         <sys_overrides/>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
@@ -108,7 +108,7 @@ function updateTotalScore() {
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sys_ui_action_e9819df9479b21103fa44aff336d4399</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-12 22:28:12</sys_updated_on>
+        <sys_updated_on>2023-06-20 10:53:27</sys_updated_on>
         <table>x_431105_cand_ass_talent_application</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

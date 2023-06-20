@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="stepstone" table="x_431105_cand_ass_talent_application">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="ability_to_write" table="x_431105_cand_ass_candidate_education_experience">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation/>
         <choice>3</choice>
-        <choice_field/>
-        <choice_table/>
-        <column_label>Candidate phase</column_label>
+        <choice_field>listen</choice_field>
+        <choice_table>x_431105_cand_ass_candidate_education_experience</choice_table>
+        <column_label>Ability to Write</column_label>
         <comments/>
         <create_roles/>
-        <default_value>applied</default_value>
+        <default_value>proficient user (c1)</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>stepstone</element>
+        <element>ability_to_write</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -30,7 +30,7 @@
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_431105_cand_ass_talent_application</name>
+        <name>x_431105_cand_ass_candidate_education_experience</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nappoma</sys_created_by>
-        <sys_created_on>2023-06-07 06:28:00</sys_created_on>
-        <sys_name>Candidate phase</sys_name>
+        <sys_created_on>2023-06-20 09:08:36</sys_created_on>
+        <sys_name>Ability to Write</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
-        <sys_update_name>sys_dictionary_x_431105_cand_ass_talent_application_stepstone</sys_update_name>
+        <sys_update_name>sys_dictionary_x_431105_cand_ass_candidate_education_experience_ability_to_write</sys_update_name>
         <sys_updated_by>nappoma</sys_updated_by>
-        <sys_updated_on>2023-06-20 09:47:07</sys_updated_on>
+        <sys_updated_on>2023-06-20 09:12:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
