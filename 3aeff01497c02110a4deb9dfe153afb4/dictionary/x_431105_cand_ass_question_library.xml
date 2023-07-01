@@ -8,7 +8,7 @@
         <element attributes="edge_encryption_enabled=true" label="Default Max Value" max_length="40" name="default_max_value" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element display="true" label="Question" max_length="400" name="question" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Selection Criteria" max_length="32" name="selection_criteria" reference="x_431105_cand_ass_selection_criteria_library" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Competency" max_length="32" name="selection_criteria" reference="x_431105_cand_ass_selection_criteria_library" type="reference"/>
         <index name="index">
             <element name="assessment_state"/>
         </index>

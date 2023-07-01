@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="use_document_viewer" db_object_id="cf032838475f61103fa44aff336d4363" label="Candidate Education Experience" max_length="40" name="x_431105_cand_ass_candidate_education_experience" type="collection">
+    <element attributes="use_document_viewer" db_object_id="cf032838475f61103fa44aff336d4363" label="Candidate Skill" max_length="40" name="x_431105_cand_ass_candidate_education_experience" type="collection">
         <element choice="1" choice_field="listen" choice_table="x_431105_cand_ass_candidate_education_experience" default="proficient user (c1)" label="Ability to Speak" max_length="40" name="ability_to_speak" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Basic User (A2)" sequence="0" value="basic user (a2)"/>
@@ -60,6 +60,8 @@
                 <element inactive_on_update="false" label="Professional Experience" sequence="2" value="professional_experience"/>
                 <element inactive_on_update="false" label="Language" sequence="3" value="language"/>
                 <element inactive="true" inactive_on_update="true" label="Age" sequence="4" value="age"/>
+                <element inactive_on_update="false" label="Strongest" sequence="5" value="strongest"/>
+                <element inactive_on_update="false" label="MS Office" sequence="6" value="ms_office"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Classification" max_length="40" name="classification" type="string"/>

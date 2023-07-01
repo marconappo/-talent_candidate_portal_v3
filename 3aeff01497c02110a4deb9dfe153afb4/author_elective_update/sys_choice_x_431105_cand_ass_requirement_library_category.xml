@@ -110,5 +110,43 @@
             <sys_updated_on>2023-06-19 23:29:50</sys_updated_on>
             <value>age</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Strongest</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_requirement_library</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-29 10:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-29 10:51:30</sys_updated_on>
+            <value>strongest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MS Office</label>
+            <language>en</language>
+            <name>x_431105_cand_ass_requirement_library</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-29 10:51:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-29 10:51:31</sys_updated_on>
+            <value>ms_office</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

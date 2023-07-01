@@ -68,7 +68,7 @@ $sp-space--lg : 16px !default;
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
         <name>Related Record Talent</name>
         <option_schema>[{"name":"table","section":"Data","label":"table","type":"string"}]</option_schema>
-        <public>false</public>
+        <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
     var user_id = $sp.getParameter("sys_id") || gs.getUserID();
@@ -78,7 +78,6 @@ $sp-space--lg : 16px !default;
     candidateGR.next()
 	data.title = options.title || gs.getMessage('My Contacts'); 
 	data.content = options;
-	gs.info("Olivier "+options.filter)
     var p = {
         table: options.table,
         fields: options.fields,
@@ -114,14 +113,14 @@ $sp-space--lg : 16px !default;
         <sys_created_by>olivier.gregoire</sys_created_by>
         <sys_created_on>2023-05-31 07:43:06</sys_created_on>
         <sys_id>e4c8f943478725103fa44aff336d43c0</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Related Record Talent</sys_name>
         <sys_package display_value="Talent NOW" source="x_431105_cand_ass">3aeff01497c02110a4deb9dfe153afb4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Talent NOW">3aeff01497c02110a4deb9dfe153afb4</sys_scope>
         <sys_update_name>sp_widget_e4c8f943478725103fa44aff336d43c0</sys_update_name>
         <sys_updated_by>olivier.gregoire</sys_updated_by>
-        <sys_updated_on>2023-06-07 07:08:16</sys_updated_on>
+        <sys_updated_on>2023-06-27 10:52:10</sys_updated_on>
         <template><![CDATA[<div id="my-contact-panel" class="panel panel-default b" ng-if="data.hasRecordsToShow || data.canAddContact">
   <div ng-class="{true: 'mycontact-panel-header-mobile', false: 'mycontact-panel-header'}[isMobile()]">
     <h2 class="h4 panel-title ng-binding">

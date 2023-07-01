@@ -4,6 +4,7 @@
         <element label="Phase" max_length="32" name="competition_phase" reference="x_431105_cand_ass_stage_library" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element display="true" label="Test" max_length="32" name="test" reference="x_431105_cand_ass_talent_test" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Weight (%)" max_length="40" name="weight" type="string"/>
         <index name="index">
             <element name="competition"/>
         </index>

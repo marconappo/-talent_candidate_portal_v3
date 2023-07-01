@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-06-19 14:58:15</sys_created_on>
-            <sys_id>bb82151147a321103fa44aff336d43d3</sys_id>
+            <sys_created_on>2023-06-30 14:29:39</sys_created_on>
+            <sys_id>5885313047b721103fa44aff336d434f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_pass_mark" sys_domain="global" view="Default view">fb07af8d47d321103fa44aff336d43c7</sys_ui_section>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-19 14:58:15</sys_updated_on>
+            <sys_updated_on>2023-06-30 14:29:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>competition</element>
             <position>1</position>
             <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-06-19 14:58:15</sys_created_on>
-            <sys_id>7382151147a321103fa44aff336d43d4</sys_id>
+            <sys_created_on>2023-06-30 14:29:39</sys_created_on>
+            <sys_id>dc85313047b721103fa44aff336d434f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_pass_mark" sys_domain="global" view="Default view">fb07af8d47d321103fa44aff336d43c7</sys_ui_section>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-19 14:58:15</sys_updated_on>
+            <sys_updated_on>2023-06-30 14:29:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-06-19 14:58:15</sys_created_on>
-            <sys_id>f382151147a321103fa44aff336d43d4</sys_id>
+            <sys_created_on>2023-06-30 14:29:39</sys_created_on>
+            <sys_id>5085313047b721103fa44aff336d4350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_pass_mark" sys_domain="global" view="Default view">fb07af8d47d321103fa44aff336d43c7</sys_ui_section>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-19 14:58:15</sys_updated_on>
+            <sys_updated_on>2023-06-30 14:29:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>competencies</element>
             <position>3</position>
             <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-06-19 14:58:15</sys_created_on>
-            <sys_id>7782151147a321103fa44aff336d43d4</sys_id>
+            <sys_created_on>2023-06-30 14:29:39</sys_created_on>
+            <sys_id>d085313047b721103fa44aff336d4350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_pass_mark" sys_domain="global" view="Default view">fb07af8d47d321103fa44aff336d43c7</sys_ui_section>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-19 14:58:15</sys_updated_on>
+            <sys_updated_on>2023-06-30 14:29:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,27 @@
             <element>minimum_value</element>
             <position>4</position>
             <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-06-19 14:58:15</sys_created_on>
-            <sys_id>f782151147a321103fa44aff336d43d4</sys_id>
+            <sys_created_on>2023-06-30 14:29:39</sys_created_on>
+            <sys_id>5485313047b721103fa44aff336d4350</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_pass_mark" sys_domain="global" view="Default view">fb07af8d47d321103fa44aff336d43c7</sys_ui_section>
             <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-06-19 14:58:15</sys_updated_on>
+            <sys_updated_on>2023-06-30 14:29:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight</element>
+            <position>5</position>
+            <sys_created_by>nappoma</sys_created_by>
+            <sys_created_on>2023-06-30 14:29:39</sys_created_on>
+            <sys_id>d485313047b721103fa44aff336d4350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_431105_cand_ass_pass_mark" sys_domain="global" view="Default view">fb07af8d47d321103fa44aff336d43c7</sys_ui_section>
+            <sys_updated_by>nappoma</sys_updated_by>
+            <sys_updated_on>2023-06-30 14:29:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

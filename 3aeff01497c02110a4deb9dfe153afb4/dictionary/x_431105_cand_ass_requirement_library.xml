@@ -7,6 +7,8 @@
                 <element inactive_on_update="false" label="Professional Experience" sequence="1" value="professional_experience"/>
                 <element inactive_on_update="false" label="Language" sequence="2" value="language"/>
                 <element inactive="true" inactive_on_update="true" label="Age" sequence="3" value="age"/>
+                <element inactive_on_update="false" label="Strongest" sequence="4" value="strongest"/>
+                <element inactive_on_update="false" label="MS Office" sequence="5" value="ms_office"/>
             </choice>
         </element>
         <element label="Default for" max_length="40" name="default_for" type="string"/>

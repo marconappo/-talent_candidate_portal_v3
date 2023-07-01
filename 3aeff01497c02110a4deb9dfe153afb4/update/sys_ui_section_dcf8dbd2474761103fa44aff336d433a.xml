@@ -3,42 +3,42 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
             <position>0</position>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-29 06:47:54</sys_created_on>
-            <sys_id>54f8dbd2474761103fa44aff336d433c</sys_id>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-27 11:07:46</sys_created_on>
+            <sys_id>7d8aa177472721103fa44aff336d4309</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_431105_cand_ass_talent_application" sys_domain="global" view="Default view">dcf8dbd2474761103fa44aff336d433a</sys_ui_section>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-29 06:47:54</sys_updated_on>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-27 11:07:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
             <position>1</position>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-29 06:47:54</sys_created_on>
-            <sys_id>5cf8dbd2474761103fa44aff336d433b</sys_id>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-27 11:07:46</sys_created_on>
+            <sys_id>718aa177472721103fa44aff336d430a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_431105_cand_ass_talent_application" sys_domain="global" view="Default view">dcf8dbd2474761103fa44aff336d433a</sys_ui_section>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-29 06:47:54</sys_updated_on>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-27 11:07:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
             <position>2</position>
-            <sys_created_by>nappoma</sys_created_by>
-            <sys_created_on>2023-05-29 06:47:54</sys_created_on>
-            <sys_id>50f8dbd2474761103fa44aff336d433c</sys_id>
+            <sys_created_by>olivier.gregoire</sys_created_by>
+            <sys_created_on>2023-06-27 11:07:46</sys_created_on>
+            <sys_id>758aa177472721103fa44aff336d430a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_431105_cand_ass_talent_application" sys_domain="global" view="Default view">dcf8dbd2474761103fa44aff336d433a</sys_ui_section>
-            <sys_updated_by>nappoma</sys_updated_by>
-            <sys_updated_on>2023-05-29 06:47:54</sys_updated_on>
+            <sys_updated_by>olivier.gregoire</sys_updated_by>
+            <sys_updated_on>2023-06-27 11:07:46</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
